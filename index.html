@@ -6,7 +6,7 @@
   <title>Investment Review | Purseglove Property</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Libre+Franklin:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -21,13 +21,16 @@
     }
 
     body {
-      font-family: 'Jost', Arial, sans-serif;
+      font-family: 'Libre Franklin', 'Jost', Arial, sans-serif;
       color: var(--char);
       background: var(--green);
       line-height: 1.7;
       min-height: 100vh;
       display: flex; flex-direction: column;
       align-items: center; justify-content: center;
+    }
+    h1, h2, h3, h4, .cover-welcome, .card-name {
+      font-family: 'Jost', Arial, sans-serif;
     }
 
     .cover {
@@ -177,7 +180,41 @@
     <p class="cover-subtitle">Investment review prepared by Richard Purseglove &nbsp;&middot;&nbsp; March 2026</p>
 
     <div class="cover-message">
-      <p>This document has been prepared specifically for you. Inside you will find the full financial breakdown for two HMO properties we are presenting to our existing client network before any wider release. Two years of profit and loss data, line by line, for both properties &mdash; a level of transparency that we have not seen from a vendor in 15 years of doing this. Take your time with the numbers. I am available whenever you would like to discuss.</p>
+      <p>This document has been prepared specifically for you. Inside you will find the gross income figures and indicative valuations for two HMO properties we are presenting to our existing client network before any wider release. The numbers here are a starting point &mdash; take your time with them and run your own due diligence. I am available whenever you would like to discuss.</p>
+    </div>
+
+    <div style="background:#EEAA92;padding:56px 40px;margin-bottom:56px;text-align:left;">
+      <p style="font-family:'Jost',sans-serif;font-size:11px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:#004B46;margin-bottom:20px;text-align:center;">Three things included in both prices</p>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;color:#004B46;font-size:clamp(28px,4vw,42px);line-height:1.15;margin-bottom:36px;text-align:center;">Three things you will not see from another sourcing agent.</h2>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;margin-bottom:0;">
+
+        <div style="background:#004B46;padding:36px 28px;border-radius:0 50% 0 50%;min-height:280px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;">
+          <p style="font-family:'Jost',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:#D86435;margin-bottom:10px;">One</p>
+          <h3 style="font-family:'Jost',sans-serif;font-weight:500;color:#EFEFDF;font-size:17px;margin-bottom:10px;line-height:1.25;max-width:180px;">No additional sourcing fee</h3>
+          <p style="font-family:'Libre Franklin',sans-serif;color:rgba(239,239,223,0.85);font-size:13px;line-height:1.6;margin:0;max-width:180px;">Neither price attracts a separate sourcing fee on top.</p>
+        </div>
+
+        <div style="background:#004B46;padding:36px 28px;border-radius:50%;min-height:280px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;">
+          <p style="font-family:'Jost',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:#D86435;margin-bottom:10px;">Two</p>
+          <h3 style="font-family:'Jost',sans-serif;font-weight:500;color:#EFEFDF;font-size:17px;margin-bottom:10px;line-height:1.25;max-width:180px;">12 months of management</h3>
+          <p style="font-family:'Libre Franklin',sans-serif;color:rgba(239,239,223,0.9);font-size:13px;line-height:1.6;margin:0;max-width:180px;">Professional management included on both, at no further cost.</p>
+        </div>
+
+        <div style="background:#004B46;padding:36px 28px;border-radius:50% 0 50% 0;min-height:280px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;">
+          <p style="font-family:'Jost',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:#D86435;margin-bottom:10px;">Three</p>
+          <h3 style="font-family:'Jost',sans-serif;font-weight:500;color:#EFEFDF;font-size:17px;margin-bottom:10px;line-height:1.25;max-width:180px;">Real market value</h3>
+          <p style="font-family:'Libre Franklin',sans-serif;color:rgba(239,239,223,0.85);font-size:13px;line-height:1.6;margin:0;max-width:180px;">Discounts measured against historical RICS sales valuations &mdash; not refinance estimates.</p>
+        </div>
+
+        <div style="background:#119391;padding:40px 28px;border-radius:0;min-height:280px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;">
+          <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;color:#D86435;font-size:64px;line-height:0.7;margin-bottom:14px;">&ldquo;</div>
+          <p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;color:#EFEFDF;font-size:17px;line-height:1.5;margin:0 0 20px;max-width:230px;">Two of these are unusual on their own. Together with 15 years of in-house management behind the offer, this is almost unheard of.</p>
+          <div style="width:36px;height:2px;background:#D86435;margin-bottom:12px;"></div>
+          <p style="font-family:'Jost',sans-serif;font-size:9px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:#EFEFDF;margin:0;">Purseglove Property</p>
+        </div>
+
+      </div>
     </div>
 
     <div class="property-cards">
@@ -188,12 +225,8 @@
         <div class="card-location">Mansfield</div>
         <div class="card-stats">
           <div class="card-stat-row">
-            <span class="cs-label">Revenue (2025)</span>
+            <span class="cs-label">Gross Revenue (2025)</span>
             <span class="cs-value">&pound;37,905</span>
-          </div>
-          <div class="card-stat-row">
-            <span class="cs-label">EBITDA</span>
-            <span class="cs-value accent">&pound;15,065</span>
           </div>
           <div class="card-stat-row">
             <span class="cs-label">Occupancy</span>
@@ -205,7 +238,7 @@
           </div>
           <div class="card-stat-row">
             <span class="cs-label">Negotiated Price</span>
-            <span class="cs-value accent">&pound;305,000 <small style="color:#D86435">(10.3% below)</small></span>
+            <span class="cs-value accent">&pound;290,000 <small style="color:#D86435">(14.7% below)</small></span>
           </div>
         </div>
         <span class="card-cta">View full breakdown <span>&rarr;</span></span>
@@ -217,12 +250,8 @@
         <div class="card-location">Mansfield</div>
         <div class="card-stats">
           <div class="card-stat-row">
-            <span class="cs-label">Revenue (2025)</span>
+            <span class="cs-label">Gross Revenue (2025)</span>
             <span class="cs-value">&pound;30,340</span>
-          </div>
-          <div class="card-stat-row">
-            <span class="cs-label">EBITDA</span>
-            <span class="cs-value accent">&pound;14,781</span>
           </div>
           <div class="card-stat-row">
             <span class="cs-label">Occupancy</span>
@@ -246,7 +275,7 @@
       <p>
         <a href="mailto:richard@purseglove.co.uk">richard@purseglove.co.uk</a>
         &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-        <a href="tel:+447890309237">+44 7890 309237</a>
+        <a href="https://wa.me/447890309237" target="_blank" rel="noopener">WhatsApp</a>
         &nbsp;&nbsp;&middot;&nbsp;&nbsp;
         <a href="https://www.purseglove.co.uk">purseglove.co.uk</a>
       </p>
